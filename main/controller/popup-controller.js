@@ -33,7 +33,7 @@ window.setupLogging = function(libTarget){
 	  libTarget.addListener("login",
 	      function(msg){
 	        if(!msg.fail){
-	          $.get("http://rejestracja.usos.uw.edu.pl/cart.php", {},
+	          $.get("http://ul.us.edu.pl/cart.php", {},
 	            function(data, status, xhr){
 	        	  USOSShoppingCartAccessor().parseHtml(xhr.responseText);
 	            });

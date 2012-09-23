@@ -20,7 +20,7 @@ var getInformationFromCourseGroupPage = function(course_id){
 	
 	var information = dataFromCoursePageURLExtractor.extract(document.URL);
 	information.title = courseTitle;
-	information.urlDoRejestracji = "http://rejestracja.usos.uw.edu.pl/cart.php?op=reg&" + course_id;
+	information.urlDoRejestracji = "http://ul.us.edu.pl/cart.php?op=reg&" + course_id;
 	information.urlDoPrzedmiotu = document.URL;
 	information.prowadzacy = prowadzacy;
 	information.termin = termin;

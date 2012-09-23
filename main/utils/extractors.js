@@ -1,6 +1,6 @@
 var courseIdFromURLExtractor = (function(){
 	var that = {};
-	var course_idRegexp = new RegExp("(|http://)rejestracja.usos.uw.edu.pl/course.php\?.*(course_id=[0-9]*&gr_no=[0-9]*)");
+	var course_idRegexp = new RegExp("(|http://)ul.us.edu.pl/course.php\?.*(course_id=[0-9]*&gr_no=[0-9]*)");
 	that.extract = function(theLine){
 		try{
 		var match = course_idRegexp.exec(theLine);

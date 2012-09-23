@@ -6,12 +6,12 @@
           "main/content-scripts/registration/coursePage.js",
           "main/content-scripts/registration/courseGroupPage.js", 
           "main/content-scripts/USOSRegistration.js" ],
-  "matches": [ "*://rejestracja.usos.uw.edu.pl/*"]
+  "matches": [ "*://ul.us.edu.pl/*"]
   },
   {
     "js": [ "lib/main/jquery.min.js", 
             "main/content-scripts/listAllPossibilities.js" ],
-    "matches": [ "*://rejestracja.usos.uw.edu.pl/*" ]
+    "matches": [ "*://ul.us.edu.pl/*" ]
   },
   {
     "js": [ "lib/main/jquery.min.js", "main/model/lib.js", "main/view/checkButtonBuilder.js", "main/content-scripts/refresher.js" ],
@@ -33,7 +33,7 @@
   "128": "images/icon_128.png"
 },
 "permissions": [
-  "*://rejestracja.usos.uw.edu.pl/",
+  "*://ul.us.edu.pl/",
   "https://logowanie.uw.edu.pl/*",
   "*://usosweb.mimuw.edu.pl/*",
   "notifications",

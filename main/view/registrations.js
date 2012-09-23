@@ -64,7 +64,7 @@ var USOSShoppingCartAccessor = function(){
 	var that = {};
 	var dehref =  function(index, attr){
 		  $(this).click(function(){
-		      chrome.tabs.create({url:"http://rejestracja.usos.uw.edu.pl/" + attr});
+		      chrome.tabs.create({url:"http://ul.us.edu.pl/" + attr});
 		      });
 		  return "javascript:void(0)";
 		};
@@ -77,7 +77,7 @@ var USOSShoppingCartAccessor = function(){
 	var amendURLsOfImgs = function(grid){
 		$("img", grid).attr("src", 
 			      function(index, attr){
-			      return "http://rejestracja.usos.uw.edu.pl/" + attr;
+			      return "http://ul.us.edu.pl/" + attr;
 			      });
 	};
 	

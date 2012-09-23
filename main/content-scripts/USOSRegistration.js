@@ -67,7 +67,7 @@ var decorateCourseGroupPage = function(target, course_id){
 };
 
 var decorateCoursePageOrCourseGroupPage = function(target){
-	var courseRegexp = new RegExp("(|http://)rejestracja.usos.uw.edu.pl/course.php");
+	var courseRegexp = new RegExp("(|http://)ul.us.edu.pl/course.php");
 	var course_id = courseIdFromURLExtractor.extract(document.URL);
 	console.warn("course_id: " + course_id);
 	if(course_id){

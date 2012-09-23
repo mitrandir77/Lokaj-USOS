@@ -58,7 +58,7 @@ var USOS = function(target, onEvents){
       {type:"login",
        stat: "waiting"
       });
-  $.get("https://logowanie.uw.edu.pl/cas/login?service=http://rejestracja.usos.uw.edu.pl/caslogin.php&locale=pl", {},
+  $.get("https://logowanie.uw.edu.pl/cas/login?service=http://ul.us.edu.pl/caslogin.php&locale=pl", {},
       function(data, status, xhr){
         var login = that.wezLogin(xhr.responseText);
         if(login){
@@ -89,7 +89,7 @@ var USOS = function(target, onEvents){
 
  that.wylogujZ = function(){
   loggingOut();
-  $.get("http://rejestracja.usos.uw.edu.pl/logout.php",{},
+  $.get("http://ul.us.edu.pl/logout.php",{},
       function(){
         loggedOut();
       });

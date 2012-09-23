@@ -1,5 +1,5 @@
 var $;
-var reg = new RegExp("(.*rejestracja.usos.uw.edu.pl/course.php[?])(.*)");
+var reg = new RegExp("(.*ul.us.edu.pl/course.php[?])(.*)");
 $.each($('a'), function(i,e){
       var match = reg.exec(e.href);
       if(match){
