@@ -1,8 +1,8 @@
 
-var regexp = new RegExp('https://usosweb.mimuw.edu.pl/kontroler.php?_action=actionx:dla_stud/studia/podania/listaZlozonych()');
+var regexp = new RegExp('https://usosweb.us.edu.pl/kontroler.php?_action=actionx:dla_stud/studia/podania/listaZlozonych()');
 
 
-var regexp2 = new RegExp('https://usosweb.mimuw.edu.pl/kontroler.php?_action=actionx:dla_stud/studia/podania/podanie(_pod_id:1426;_inst_www_kod:MIMUW_WWW)');
+var regexp2 = new RegExp('https://usosweb.us.edu.pl/kontroler.php?_action=actionx:dla_stud/studia/podania/podanie(_pod_id:1426;_inst_www_kod:MIMUW_WWW)');
 
 var findTable = function(doc){
   return $("table.wrnav", doc).first();

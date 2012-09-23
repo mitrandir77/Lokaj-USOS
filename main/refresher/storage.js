@@ -19,7 +19,7 @@ var urlStorageReadOnly = function(){
 };
 
 var specialURL = {
-  sprawdzianyIndex:{url:"https://usosweb.mimuw.edu.pl/kontroler.php?_action=actionx:dla_stud/studia/sprawdziany/index()",
+  sprawdzianyIndex:{url:"https://usosweb.us.edu.pl/kontroler.php?_action=actionx:dla_stud/studia/sprawdziany/index()",
                     conditionsMet: function(html){
                       //TODO: zdeglobalizowac logowanieUSOS.js
                       //TODO: testy do logowanieUSOS.js
@@ -32,7 +32,7 @@ var specialURL = {
                     }
                     },
   ocenyKoncoweIndex: {
-    url: "https://usosweb.mimuw.edu.pl/kontroler.php?_action=actionx:dla_stud/studia/oceny/index()",
+    url: "https://usosweb.us.edu.pl/kontroler.php?_action=actionx:dla_stud/studia/oceny/index()",
     conditionsMet: function(html){
       return true;
     },

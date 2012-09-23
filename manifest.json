@@ -15,7 +15,7 @@
   },
   {
     "js": [ "lib/main/jquery.min.js", "main/model/lib.js", "main/view/checkButtonBuilder.js", "main/content-scripts/refresher.js" ],
-    "matches": [ "*://usosweb.mimuw.edu.pl/*" ]
+    "matches": [ "*://usosweb.us.edu.pl/*" ]
   }
 ],
 "description": "Chcesz mieć pewność, że zarejestrujesz się na wybrany OGUN lub WF? Lokaj USOS zarejestruje Cię automatycznie!",
@@ -35,7 +35,7 @@
 "permissions": [
   "*://ul.us.edu.pl/",
   "https://logowanie.uw.edu.pl/*",
-  "*://usosweb.mimuw.edu.pl/*",
+  "*://usosweb.us.edu.pl/*",
   "notifications",
   "*://*/*"
 ]
